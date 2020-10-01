@@ -1,0 +1,121 @@
+/* ....................Resume Styling ...............................*/
+
+* {
+
+box-sizing: border-box;
+
+
+}
+
+#main-header {
+ 
+    text-align: center;
+
+
+}
+
+body {
+
+    background-image: linear-gradient(to right, rgb(243, 192, 192), #dda981, rgb(231, 231, 150), rgb(182, 219, 182));
+    width: 100%;
+
+}
+
+#wrapper {
+
+width: 100%;
+justify-content: center;
+margin: 10px 10px;
+padding: 20px 10px 20px 10px ;
+font-family: 'Cookie', cursive;
+font-family: 'Slabo 27px', serif;
+color: black;
+
+}
+
+h5 {
+
+color: rgb(19, 78, 47);
+
+}
+
+h5:hover {
+
+    color: blue;
+
+
+}
+
+
+#socialmedia,
+#socialmedia img {
+    justify-content: center;
+    margin: 20px;
+    display: grid;
+    grid-template-areas:
+    "s1 s2 s3 s4";
+    grid-template-rows: 1fr;
+}
+
+#footer {
+
+ background-color: grey;
+ color: white;
+ text-align: center;
+
+}
+
+#bt {
+
+    color: white;
+}
+/* .........................Media Query...................... */
+
+@media only screen and (min-width: 768px) {
+
+    
+    #main-header {
+
+       margin: 30px 0 10px 0;
+       padding: 20px 0 10px 0; 
+       justify-content: center;        
+
+    }
+
+
+    #wrapper {
+
+        width: 90%;
+        justify-content: center;        
+        margin: 10px 0 10px 30px;
+        padding: 10px;
+    }
+    #bt {
+
+        color: white;
+    }
+  }
+  /* ............... */
+
+  @media only screen and (min-width: 1024px) {
+
+
+
+    
+    #main-header {
+
+       margin: 30px 0 30px 0;
+       padding: 20px 0 20px 0; 
+       justify-content: center;        
+
+    }
+
+
+    #wrapper {
+
+        justify-content: center;        
+        margin: 10px 0 10px 30px;
+        padding: 10px;
+    }
+
+  }
